@@ -40,7 +40,7 @@ var svg = vis
       "Gender": "The survey result shows that there is no significant difference between female and male in terms of stress level.",
       "Grade": "Turns out that senior students are more likely to feel stressed than junior students, the inner reasons maybe graduation and other tests. The percentage is 73.7% VS 88.6%.",
       "Nation": "The result turns out that Hispanic or Latino students are stressed.",
-      "Major": "Since the sample size of our survey isn't big enough, some result show on the chart, for example, School of Music, may not be accurate enough. However, you still can find out students from school of communication feel less stressed at school.",
+      "Major": "Since the sample size of our survey isn't big enough, some results show on the chart, for example, School of Music, maynot be accurate enough. However, you can find out students from school of communication feel less stressed.",
       "Job": "People who has a job seem to be more likely to feel stressed, the reason maybe they must give their attention to both study and work at the same time.",
       "Test": "There is obvious difference between students who are preparing for a test and those who don't have to. From our survey, those tests include GRE, GMAT, MCAT, LSAT and so on.",
       "GPA": "Same as tests, students who need to maintain a certain GPA for reasons such as scholarship or financial aid are more stressed."
