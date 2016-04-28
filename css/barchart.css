@@ -1,0 +1,120 @@
+
+button {
+    margin: 5px;
+    font-size: 15pt;
+    padding: 3px;
+    cursor: pointer;
+}
+input {
+    margin: 5px;
+    font-size: 15pt;
+    padding: 3px;
+}
+
+.mybartooltip {
+  position: absolute;
+  z-index: 10;
+}
+
+.mybartooltip p {
+  font-family: 'Droid Serif', serif;
+  background-color:rgb(244,239,243);
+  border: none;
+  padding: 2px;
+  font-size: 12px;
+  font-style: italic;
+
+}
+
+#barchart {
+  width: 800px;
+  background-color:white
+  z-index: -10000px;
+  margin-left: 230px;
+}
+
+#menu {
+    padding: 20px 75px;
+    margin-left: 330px;
+}
+#explain {
+  background-color: rgb(252,220,211);
+  opacity:0.8;
+  width: 620px;
+  height: 70px;
+  margin-left: 430px;
+
+  font-size: 10px;
+  font-family: 'Droid Serif', serif;
+
+}
+
+#explain p {
+  line-height: 20px;
+  width: 580px;
+  margin-left: 25px;
+  padding-top: 15px;
+}
+
+#explain1 {
+  width: 640px;
+  height: 10px;
+  margin-left: 450px;
+  margin-top: 70px;
+  font-size: 10px;
+  font-family: 'Droid Serif', serif;
+
+}
+
+
+
+#explain1 p {
+  line-height: 20px;
+  width: 580px;
+  margin-left: 40px;
+  padding-top: 10px;
+}
+
+.labels {
+    fill: black;
+    font-size: 10px;
+    font-family: 'Droid Serif', serif;
+}
+.labelsdrivername {
+  font-size: 10px;
+  font-family: 'Droid Serif', serif;
+}
+.axis {
+  shape-rendering: crispEdges;
+  font-size: 10px;
+}
+
+.axis path {
+  fill: none;
+  stroke: none;
+}
+
+
+.x.axis path {
+  fill: none;
+  stroke: white;
+  stroke-opacity:0;
+}
+
+.x.axis line {
+  stroke: gray;
+  stroke-opacity: .8;
+}
+
+.y.axis path {
+  stroke: black;
+}
+.focused {
+  opacity: 1;
+}
+.unfocused {
+  opacity: 0.8;
+}
+.hidden {
+  display: none;
+}

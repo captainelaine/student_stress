@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+#homepage{
+  background-image: url("../image/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-attachment:fixed;
+  background-position: center center;
+  font-family: 'Bangers', cursive;
+}
+
+#homepage h2 {
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+  text-align: right;
+  line-height: 25px;
+  margin-right: 30px;
+  margin-top: 150px;
+  font-style: italic;
+
+}
+
+h1 {
+  margin-left: 45%;
+  margin-top: 20%;
+  font-size: 70px;
+}
+
+
+#report {
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-attachment:fixed;
+  background-position: center center;
+}
+
+#report p {
+  text-align:justify;
+  width: 700px;
+  margin-left: 380px;
+  line-height: 40px;
+  text-indent: 40px;
+}
+
+#barchart {
+  width: 500px;
+  height: 250px;
+}
+
+#multi img {
+  text-align: center;
+  width:250px;
+  height: 230px;
+  display: inline-block;
+  margin-right: 30px;
+}
+#lol img {
+  width: 600px;
+  height: 330px;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+#secondbarchart {
+  width:900px;
+  height: 920px;
+  margin-left:320px;
+  margin-top: 50px;
+}
+
+#stress4 {
+  margin-left: 110px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+
+#piechart {
+  width:1200px;
+  height: 370px;
+}
+
+#piechart img{
+  width: 1100px;
+  height: 338px;
+  margin-left: 170px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#highlight {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}

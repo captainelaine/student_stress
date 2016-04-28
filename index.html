@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Students' stress level report</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/barchart.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="homepage">
+        <h1>Students are stressed out!</h1>
+        <h2 id="producer">Reporter: Zhou Fang </br> Aymara Diaz</br> Gisselle Vallejo </br> Angharad Maggs </br> Professor: Jan Hendrik Boehmer</h2>
+      </div>
+      <div id="report">
+        <p><em id="highlight">Stress and anxiety is found amongst many students attending a university. </em></p>
+        <p>According to BBC, mental health on campus has risen from about 8,000 to 18,000 in the last four years. Studies have been done to examine the stress factors that are causing the students to have anxiety. According to health news, students suffering from stress have an average of a 2.72 GPA while students whom are not suffering from stress have an average of a 3.3 GPA. Research was conducted to acknowledge which stress factor is causing the most anxiety amongst the students at the University of Miami and what can be done to help these individuals control their stress, thus have a better academic performance. </p>
+        <p>The counseling center at the University of Miami provides free weekly one hour counseling for its students. There are many trained professionals at the center willing to help students deal with any problems they are facing. The center however, does not collect different statistics based on their patients. Dr. Rene Monteagudo mentions how anxiety and stress is the most common cause for students attending the counseling center. What factors are causing the anxiety and stress in our student body? Is it the academic status, the degree of study, gender, race, or financial and living statuses? </p>
+        <div id="barchart">
+          <div id="menu">
+              <select>
+              <option value ="Age">Age of students</option>
+              <option value="Gender">Gender of students</option>
+              <option value="Grade">Students' grades</option>
+              <option value="Nation">Students' nations</option>
+              <option value= "Major">Students' majors</option>
+              <option value ="Job">Have a job or not</option>
+              <option value ="Test">Preparing a test or not</option>
+              <option value ="GPA">Have to maintain GPA or not</option>
+              </select>
+          </div>
+        </div>
+        <div id="explain1">
+          The chart compares the percentage of students who feel moderately stressed or more by different possible causes.
+        </div>
+        <div id="explain">
+          <p>Age gap of University is usually bigger than high school,thus we also put this variable into our survey, which shows that people who aged twenty-five to thirty may be less stress than other younger students.</p>
+        </div>
+        <h3 class="subtitle">What causes stress?</h3>
+        <p>You have a test on Wednesday, a 30min power point presentation due Wednesday, a report due Thursday, 30 pages to read by each class, a group project due on Friday, 4 classes to attend throughout these deadlines plus your personal life to handle. Stressed yet? Stress is a normal part of life that motivates you to get through each day as long as you take control of your stress. If you can’t handle the stress however, and it becomes long-term, it can interfere with your school, job, personal life and health. According to Health and Benefits, more than half of Americans say they fight with friends and loved ones because of stress.</p>
+        <div id="secondbarchart">
+         <div id="multi">
+          <img src="image/stresslevel1.png">
+          <img src="image/stresslevel2.png">
+          <img src="image/stresslevel3.png">
+          <img id="stress4" src="image/stresslevel4.png">
+          <img id="stress5" src="image/stresslevel5.png">
+         </div>
+         <!-- <p id="explainalcohol">The multiple charts show the percentage of people drink in different stress levels.</br>Since we only have two people in our survey have no stress, the chart for the stress level one has a confusing result.</br>From the rest four charts, results from our survey show that people usually drink more when they feel more stressed.</p> -->
+         <div id="lol">
+         <img src="image/effectalcohol.png">
+       </div>
+        </div>
+        <h3 class="subtitle">Consequences Stress May Cause</h3>
+        <p>Stress appears differently in each individual. If your body can’t handle a physical or emotional threat, your body releases stress hormones such as cortisol. A constant increase of cortisol increases your body to be at risk for anxiety, depression, mood swings, insomnia, over eating, failing grades, and others. Anxiety is the most common disorder found amongst our students. The more stress a person undergoes, the more cortisol is released throughout the body causing a disruption in one’s quality of life.
+        </p>
+          <div id="piechart">
+          <img src="image/counseling.png">
+        </div>
+        <h3 class="subtitle">Counseling Center May Help You</h3>
+        <p>The University of Miami offers free counseling to all its students. A 45 min session can be scheduled once a week with a trained professional. A Psychologist is on call 24/7 for any emergency calls. According to the University of Miami’s counseling center, anxiety was the most common factor found amongst the students. For this reason they offer group therapy and ways to handle anxiety through therapy. Within our survey, 86% of the students mentioned they suffer from anxiety however only 8% of the students attend the counseling center.
+        </p>
+
+        <!-- <p>The interview with the professor in the UM consulting center and the end of the report.</p> -->
+      </div>
+    </div>
+
+    <script src = "js/main.js"></script>
+    <script src = "js/barchart.js"></script>
+  </body>
+</html>
