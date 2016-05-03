@@ -38,6 +38,10 @@ h1 {
   background-position: center center;
 }
 
+#alcohol {
+  margin-left: 300px;
+}
+
 #report p {
   text-align:justify;
   width: 700px;
@@ -46,24 +50,32 @@ h1 {
   text-indent: 40px;
 }
 
+
+
 #barchart {
   width: 500px;
   height: 250px;
 }
 
+
 #multi img {
   text-align: center;
-  width:250px;
-  height: 230px;
-  display: inline-block;
-  margin-right: 30px;
+  width:800px;
+  height: 509px;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 #lol img {
   width: 600px;
-  height: 330px;
-  margin-top: 50px;
-  margin-left: 120px;
+  height: 292px;
+  margin-top: -40px;
+  margin-left: 110px;
 }
+#lol p {
+  margin-left:60px;
+}
+
+
 
 #secondbarchart {
   width:900px;
